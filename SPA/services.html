@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore spa services at Queen-Spa: massages, facials, body treatments, and wellness packages in Cape Town." />
+  <meta name="theme-color" content="#5c3937" />
+  <meta property="og:title" content="Services | Queen-Spa" />
+  <meta property="og:description" content="Massages, facials, body treatments, and wellness packages." />
+  <meta property="og:image" content="Image/PICTURE1.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css_asserts/style.css" />
+
+  <title>Services | Queen-Spa</title>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header id="siteHeader">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand" aria-label="Queen-Spa home">
+        <span class="brand-badge">QS</span> Queen-Spa
+      </a>
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html" class="active" aria-current="page">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn-book">Book a Treatment</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="pad-hero">
+      <div class="text-center">
+        <div class="breadcrumb">Home / Services</div>
+        <h1>Spa services designed for relaxation and renewal.</h1>
+        <p class="lead">From therapeutic massage to restorative facials, our treatments are crafted to support wellbeing and calm.</p>
+      </div>
+    </section>
+
+    <section class="pad-section" style="padding-bottom: 0;">
+      <img src="Image/PICTURE2.jpg"
+           alt="Serene spa treatment room with massage table, candles, and warm wood decor"
+           class="img-full"
+           width="1600" height="700"
+           loading="lazy"
+           style="width:100%; height:auto; max-height: 460px; border-radius: var(--radius-md); box-shadow: var(--shadow-md); object-fit: cover;" />
+    </section>
+
+    <section class="pad-section">
+      <div class="gallery-filters" role="tablist" aria-label="Filter services">
+        <button type="button" class="chip is-active" data-filter="all">All Services</button>
+        <button type="button" class="chip" data-filter="body">Body & Massage</button>
+        <button type="button" class="chip" data-filter="face">Face & Skin</button>
+        <button type="button" class="chip" data-filter="wellness">Wellness & Packages</button>
+      </div>
+
+      <div class="grid-3">
+        <div class="card tilt-card" data-category="body">
+          <div class="card-icon">✦</div>
+          <h3>Massage Therapy</h3>
+          <p>Swedish, deep tissue, hot stone, and therapeutic massages to relieve tension and promote relaxation.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R450 · 60 min</p>
+        </div>
+        <div class="card tilt-card" data-category="face">
+          <div class="card-icon">❀</div>
+          <h3>Facials &amp; Skin Care</h3>
+          <p>Customized facials, peels, and skin consultations to restore radiance and health.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R380 · 45 min</p>
+        </div>
+        <div class="card tilt-card" data-category="body">
+          <div class="card-icon">▣</div>
+          <h3>Body Treatments</h3>
+          <p>Scrubs, wraps, and nourishing body therapies to detoxify, smooth, and revitalize skin.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R520 · 60 min</p>
+        </div>
+        <div class="card tilt-card" data-category="wellness">
+          <div class="card-icon">◫</div>
+          <h3>Aromatherapy</h3>
+          <p>Essential-oil blends and sensory treatments to support relaxation and mood balance.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R420 · 45 min</p>
+        </div>
+        <div class="card tilt-card" data-category="wellness">
+          <div class="card-icon">△</div>
+          <h3>Spa Packages</h3>
+          <p>Curated packages combining massage, facial, and body treatments for full-day renewal.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R1,250 · 3 hrs</p>
+        </div>
+        <div class="card tilt-card" data-category="face">
+          <div class="card-icon">◎</div>
+          <h3>Beauty &amp; Grooming</h3>
+          <p>Waxing and express beauty services to look and feel your best after treatments.</p>
+          <p style="margin: 12px 0 0; font-weight: 600; color: var(--plum);">From R180</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pad-section bg-soft">
+      <div class="section-header">
+        <div>
+          <div class="eyebrow">How we work</div>
+          <h2>A simple process for your best wellness experience.</h2>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="card step-card tilt-card">
+          <div class="step-number">1</div>
+          <h3>Book</h3>
+          <p>Schedule an appointment and tell us about your preferences and needs.</p>
+        </div>
+        <div class="card step-card tilt-card">
+          <div class="step-number">2</div>
+          <h3>Consult</h3>
+          <p>We recommend treatments and products tailored to your skin and body goals.</p>
+        </div>
+        <div class="card step-card tilt-card">
+          <div class="step-number">3</div>
+          <h3>Treat</h3>
+          <p>Our therapists deliver restorative treatments with professional care and attention.</p>
+        </div>
+        <div class="card step-card tilt-card">
+          <div class="step-number">4</div>
+          <h3>Relax</h3>
+          <p>Enjoy the results and take home aftercare tips to extend the benefits.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pad-x" style="padding-bottom: 60px;">
+      <div class="cta-banner">
+        <h3>Ready to restore and glow?</h3>
+        <a href="contact.html">Book a Treatment</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="brand-badge">QS</span> Queen-Spa</div>
+        <p>Nurturing wellness with expert spa treatments, restorative therapies, and personalized care.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p><a href="about.html">About</a></p>
+        <p><a href="services.html">Services</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="mailto:hello@queen-spa.co.za">hello@queen-spa.co.za</a></p>
+        <p><a href="tel:+27215550142">+27 (0)21 555 0142</a></p>
+        <p>Cape Town, Western Cape</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon – Fri: 09:00 – 18:00</p>
+        <p>Sat: By appointment</p>
+        <p>Sun &amp; Public Holidays: Closed</p>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span class="year">2026</span> Queen-Spa. All rights reserved. Made in South Africa 🇿🇦
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <a href="tel:+27215550142">📞 Call</a>
+    <a href="contact.html" class="btn-book">Book</a>
+  </div>
+
+  <a href="contact.html" class="floating-book" aria-label="Book a treatment">Book a Treatment ✨</a>
+
+  <script src="javascript/javascript.js" defer></script>
+</body>
+</html>
